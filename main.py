@@ -1,6 +1,6 @@
+# Algoritmo de seleção simultânea (MaxMin Select) usando divisão e conquista.
 def maxmin_select(arr, low, high):
     """
-    Algoritmo de seleção simultânea (MaxMin Select) usando divisão e conquista.
     
     Args:
         arr: Lista de números
