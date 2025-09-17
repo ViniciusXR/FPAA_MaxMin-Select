@@ -2,12 +2,12 @@
 def maxmin_select(arr, low, high):
     """
     
-    Args:
+    Argumentos:
         arr: Lista de números
         low: Índice inicial do subarray
         high: Índice final do subarray
-    
-    Returns:
+
+    Retorna:
         tupla (min, max) contendo o menor e maior elemento do subarray
     """
     # Caso base 1: apenas um elemento
