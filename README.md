@@ -3,6 +3,28 @@ Programa desenvolvido em Python que implementa o algoritmo de seleção simultâ
 
 ## Autor: Vinicius Xavier Ramalho
 
+## Índice
+
+- [Implementação do Algoritmo MaxMin Select em Python](#implementação-do-algoritmo-maxmin-select-em-python)
+- [O que é o Algoritmo MaxMin Select](#o-que-é-o-algoritmo-maxmin-select)
+- [Descrição do Projeto](#descrição-do-projeto)
+  - [Implementação Linha por Linha](#implementação-linha-por-linha)
+- [Como Executar o Projeto](#como-executar-o-projeto)
+  - [Pré-requisitos](#pré-requisitos)
+  - [Passo 1: Preparar o Ambiente](#passo-1-preparar-o-ambiente)
+  - [Passo 2: Executar o Programa](#passo-2-executar-o-programa)
+  - [Exemplo de Execução](#exemplo-de-execução)
+- [Relatório Técnico](#relatório-técnico)
+  - [Análise Detalhada do Número de Comparações](#análise-detalhada-do-número-de-comparações)
+  - [Análise da Complexidade Assintótica pelo Teorema Mestre](#análise-da-complexidade-assintótica-pelo-teorema-mestre)
+  - [Análise da Complexidade Ciclomática](#análise-da-complexidade-ciclomática)
+  - [Análise da Complexidade Assintótica](#análise-da-complexidade-assintótica)
+  - [Análise de Performance Prática](#análise-de-performance-prática)
+- [Versão do Python](#versão-do-python)
+- [Conclusão](#conclusão)
+- [Referências](#referências)
+- [Licença](#licença)
+
 # Implementação do Algoritmo MaxMin Select em Python
 
 O **Algoritmo MaxMin Select** é um método eficiente para encontrar simultaneamente o maior e o menor elemento de um array, desenvolvido utilizando a estratégia "divide e conquista". Este algoritmo reduz o número de comparações necessárias em relação à abordagem iterativa tradicional, realizando aproximadamente 3n/2 - 2 comparações para n elementos.
